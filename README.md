@@ -49,6 +49,12 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
 ## Methodology
 ![Methodology](snapshots/Methodology.png)
+- Data Collection :- Different datasets from Kaggle were considered. Out of all the existing datasets, an appropriate dataset was selected for model building.
+- Data Splitting :- To avoid overfitting, split the dataset before any preprocessing.
+- EDA Analysis :- Performed Explanatory Data Analysis only on training set to avoid overfitting. Univariate as well as bivariate analysis is done.
+- Data Preprocessing :- The feature and target variables are separated. Feature variables are further divided into numerical and categorical features. Also, filling missing data via *K-nearest neighbours imputation*.
+- Feature Engineering :- 
+  - 
 
 **A web application to predict the chances of getting stroke by a patient based on other health factors like hypertension, Smoking habit, etc.**
 - Live app :- https://brain-stroke-aditi-101803650.herokuapp.com/
