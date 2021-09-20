@@ -60,6 +60,8 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 - Model Training :- *Decision Tree Classifier* and *Logistic Regression* algorithm are used to build the model.
 - Hyperparameter Tuning :- Used *RandomizedSearchCV* to tune the hyperparameters of both the models with f1 score as the evaluation metrics.
 - Deployment - Used HTML and flask to develop a user-friendly page for the user to enter the input parameters and get the result.
+
+## Result
 **A web application to predict the chances of getting stroke by a patient based on other health factors like hypertension, Smoking habit, etc.**
 - Live app :- https://brain-stroke-aditi-101803650.herokuapp.com/
 - The model was trained and validated on 5100+ patient health records. 
