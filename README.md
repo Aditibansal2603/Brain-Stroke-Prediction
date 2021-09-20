@@ -50,13 +50,19 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 ## Methodology
 ![Methodology](snapshots/Methodology.png)
 - Data Collection :- Different datasets from Kaggle were considered. Out of all the existing datasets, an appropriate dataset was selected for model building.
-- Data Splitting :- To avoid overfitting, split the dataset before any preprocessing.
+- Data Splitting :- The data is split into training and testing data for better accuracy and efficiency.
 - EDA Analysis :- Performed Explanatory Data Analysis only on training set to avoid overfitting. Univariate as well as bivariate analysis is done.
 - Data Preprocessing :- The feature and target variables are separated. Feature variables are further divided into numerical and categorical features. Also, filling missing data via *K-nearest neighbours imputation*.
-- Feature Engineering :- 
-  - 
-
+- Feature Engineering :- Performed 3 tasks in it
+1. Discretization :- For replacing the continuous values with a finite set of values.
+2. OneHot Encoding :- For replacing categorical column(s) with the binary value for each category.
+3. Feature Scaling :- For standardizing the numerical features.
+- Model Training :- *Decision Tree Classifier* and *Logistic Regression* algorithm are used to build the model.
+- Hyperparameter Tuning :- Used *RandomizedSearchCV* to tune the hyperparameters of both the models with f1 score as the evaluation metrics.
+- Deployment - Used HTML and flask to develop a user-friendly page for the user to enter the input parameters and get the result.
 **A web application to predict the chances of getting stroke by a patient based on other health factors like hypertension, Smoking habit, etc.**
 - Live app :- https://brain-stroke-aditi-101803650.herokuapp.com/
 - The model was trained and validated on 5100+ patient health records. 
 - Achieved True Positive rate of 0.77 and F1 score of 0.24
+
+## Novelty
