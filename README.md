@@ -67,8 +67,10 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 - The model was trained and validated on 5100+ patient health records
 - Achieved True Positive rate of 0.77 and F1 score of 0.24
 
+![Landing Page](snapshots/1. Landing Page.PNG)
+
 ## Novelty
 - For both models, performed *Hyperparameter Tuning*
-1.) Decision tree classifier parameters: maximum depth, criterion, minimum sample split, maximum features, maximum leaf nodes, class weight
-2.) Logistic regression parameters: penalty, C, fit intercept, and solver
+1. Decision tree classifier parameters: maximum depth, criterion, minimum sample split, maximum features, maximum leaf nodes, class weight.
+2. Logistic regression parameters: penalty, C, fit intercept, and solver
 - Used *k-fold cross validation* technique to evaluate the machine learning models
