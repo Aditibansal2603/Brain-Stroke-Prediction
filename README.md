@@ -32,7 +32,7 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 <b>stroke</b>: 1 if the patient had a stroke or 0 if not (target)<br>
 
 
-# Tools and Technologies used🛠
+## Tools and Technologies used🛠
 - Windows 10 OS 
 - Python 3.7
 - Pandas
@@ -45,6 +45,10 @@ Source : https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 - CSS
 - BootStrap 
 - Deployed on Heroku cloud
+
+
+## Methodology
+![Methodology](snapshots/Methodology.png)
 
 **A web application to predict the chances of getting stroke by a patient based on other health factors like hypertension, Smoking habit, etc.**
 - Live app :- https://brain-stroke-aditi-101803650.herokuapp.com/
